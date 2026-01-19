@@ -73,6 +73,10 @@ footer {
   font-size: 14px;
 }
 
+.footer p {
+  cursor: pointer;
+}
+
 .social-media {
   display: flex;
   gap: 10px;
