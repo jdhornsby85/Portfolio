@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #12355B;
+  background-color: #12355b;
 }
 
 img {
@@ -16,7 +16,6 @@ img {
   object-fit: cover;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .main-container {
@@ -44,7 +43,6 @@ img {
 .hero {
   background-color: #b3d9f0;
   padding: 50px 20px;
-
 }
 
 .projects {
@@ -55,7 +53,7 @@ img {
 .project-grid {
   display: flex;
   justify-content: center;
-  gap: 20px;;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -73,9 +71,29 @@ footer {
   color: white;
   padding: 15px;
   font-size: 14px;
-  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media img {
+  width: 50px;
+  height: 40px;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
 }
 
 .portfolio h2 {
   color: white;
+}
+
+.cursor {
+  cursor: pointer;
 }
